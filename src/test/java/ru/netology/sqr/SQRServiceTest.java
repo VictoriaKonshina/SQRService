@@ -51,7 +51,7 @@ public class SQRServiceTest {
         SQRService service = new SQRService();
 
         int actual = service.calc(121, 120);
-        int expected = 1;
+        int expected = 0;
 
         Assertions.assertEquals(expected, actual);
     }
